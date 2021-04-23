@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sky</title>
+    <meta name="description" content="Lab #6">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <p>Завдання 1 <br>
+        В текстове поле вводиться рядок тексту. При натисканні на кнопку має виконуватись функція. З допомогою методу test об’єкту RegExp функція визначає, що введений рядок є e-mail та виводить повідомлення «Введено правильну адресу» або «Введена адреса містить помилки» а також підсвічується рядок вводу, при позитивному зелений при негативному червоний.
+    </p>
+    <form onsubmit="return false">
+        <input type="text" id="text1">
+        <input type="button" id="button1" value="Task 1">
+    </form>
+    <p id="p1">Enter email address</p>
+    <p>Завдання 32 <br>
+        В текстове поле вводиться рядок тексту. При натисканні на кнопку має виконуватись функція. З допомогою методу test об’єкту RegExp функція визначає, чи введений рядок є шістнадцятковим числом (починається на 0X і містить цифри та літери від A-F). Для реалізації завдання використати шаблон.
+    </p>
+    <form onsubmit="return false">
+        <input type="text" id="text2">
+        <input type="button" id="button2" value="Task 32">
+    </form>
+    <p id="p2">Enter heximal number</p>
+    <p>Завдання 24 <br>
+        В текстове поле вводиться рядок тексту типу 'a\a a\\a a\\\a’. При натисканні на кнопку має виконуватись функція. З допомогою методу replace необхідно замінити 'a\\\a' на символ '!'. Для реалізації завдання використати шаблон.
+    </p>
+    <form onsubmit="return false">
+        <input type="text" id="text3">
+        <input type="button" id="button3" value="Task 24">
+    </form>
+    <p id="p3">Enter string</p>
+    <p>Завдання 17 <br>
+        В текстове поле вводиться рядок тексту типу 'a1a a22a a333a a4444a a55555a aba aca'. При натисканні на кнопку має виконуватись функція. З допомогою методу match об’єкту String необхідно знайти всі слова, в яких по краях стоять літери 'a', а між ними будь-яка кількість цифр. Вивести ці слова у вигляді стовпчика (кожне слово з нового рядка). Для реалізації завдання використати шаблон.
+    </p>
+    <form onsubmit="return false">
+        <input type="text" id="text4">
+        <input type="button" id="button4" value="Task 17">
+    </form>
+    <p id="p4">Enter string</p>
+    <p>Завдання 16 <br>
+        В текстове поле вводиться рядок тексту типу 'a1a a2a a3a a4a a5a aba aca'. При натисканні на кнопку має виконуватись функція. З допомогою методу match об’єкту String необхідно знайти всі слова, в яких по краях стоять літери 'a', а між ними одна цифра. Вивести ці слова у вигляді стовпчика (кожне слово з нового рядка). Для реалізації завдання використати шаблон.
+    </p>
+    <form onsubmit="return false">
+        <input type="text" id="text5">
+        <input type="button" id="button5" value="Task 16">
+    </form>
+    <p id="p5">Enter string</p>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

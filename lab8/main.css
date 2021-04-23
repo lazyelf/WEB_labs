@@ -1,0 +1,43 @@
+html {
+    background: black;
+    background-image: url(https://lh3.googleusercontent.com/proxy/fs8c8UF5rZbiCzLDCCZJ284o-KDZFcteMXq41t_JiROlfkYkaFvTU1qzimIOXZo2YXBdFSFxv-cqjsgsBx3ZTYmZjrSxjRxdHgIdhYURE_-_tGY);
+}
+
+body {
+    color: gainsboro;
+    opacity: .8;
+    width: 40%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+}
+
+.butt {
+    display: none;
+}
+
+.input {
+    background-color: #4F4F4F;
+    opacity: .7;
+    color: gainsboro;
+    padding: 15px 1px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 20%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.radio {
+    background-color: #4F4F4F;
+    opacity: .7;
+    color: gainsboro;
+    padding: 15px 1px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 6%;
+    font-size: 16px;
+    cursor: pointer;
+}

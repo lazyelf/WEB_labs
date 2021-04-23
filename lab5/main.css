@@ -1,0 +1,61 @@
+html {
+    background: black;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://html-pedia.narod.ru/background/night-sky/night-sky-2.gif)
+}
+
+body {
+    color: gainsboro;
+    opacity: .8;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 2em 2em 4em;
+}
+
+
+input {
+    background-color: midnightblue;
+    opacity: .7;
+    color: gainsboro;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+table {
+    background-color: midnightblue;
+    opacity: .7;
+    table-layout: fixed;
+    max-width: 70%;
+    border: 1.5px solid gainsboro;
+    text-align: center;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+p {
+    opacity: .8;
+    text-shadow: beige 0 0 2px;
+}
